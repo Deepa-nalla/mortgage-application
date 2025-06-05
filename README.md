@@ -1,13 +1,19 @@
 This project automates the extraction of key fields from mortgage-related calls and transcripts, targeting the fields from 'Form 1003 Uniform Residential Loan Application'.
+
+
 Approach - 
 I developed a scalable GenAI-based solution using Python, FastAPI, Gradio, Gemini flash 1.5, OpenAI Whisper. 
+
 Implemented robust validation checks and exception handling at every check point.
+
 Designed simple UI using Gradio for uploading audio/text and viewing extraction results including confidence scores.
+
 
 Tools & Libraries used - 
 AI - Google Gemini 1.5, OpenAI Whisper, Prompt Engineering
 Frameworks - FastAPI, Gradio
 Libraries - Pydandic, Requests, JSON etc
+
 
 Flow of the project - 
 Users upload either an audio file (such as a customer service call) or a text transcript through a simple Gradio UI. 
