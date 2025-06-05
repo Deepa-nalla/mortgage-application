@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Gradio temp files
+.gradio/
+
+# Audio files
+*.wav
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
